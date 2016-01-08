@@ -481,7 +481,7 @@ if [ "$(id -u)" != "0" ]; then
   exit 1
 fi
 
-release=14.0
+release=14.1
 [ -n "$arch" ] || arch=x86_64
 case "$arch" in
   i486) suffix='32';;

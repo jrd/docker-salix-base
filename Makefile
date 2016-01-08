@@ -1,4 +1,4 @@
-RELEASE=14.0
+RELEASE=14.1
 
 salix-${RELEASE}-%.tar: make_image.sh
 	@arch=$$(echo $@|sed -r 's/salix-${RELEASE}-(.*)\.tar/\1/') fakeroot ./make_image.sh --no-cache
